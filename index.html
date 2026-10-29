@@ -15,6 +15,59 @@
       fontFamily: { sans:['"Plus Jakarta Sans"','sans-serif'] }
     }}};
   </script>
+
+  /* BioZey - Modern tasarım iyileştirmeleri */
+  :root {
+    --biozey-green: #344b35;
+      --biozey-light: #f7f5ed;
+        --biozey-earth: #b69a72;
+        }
+
+        html {
+          scroll-behavior: smooth;
+          }
+
+          body {
+            background-color: var(--biozey-light);
+              color: #30382e;
+                line-height: 1.7;
+                }
+
+                img {
+                  max-width: 100%;
+                    height: auto;
+                    }
+
+                    a, button {
+                      transition: all 0.25s ease;
+                      }
+
+                      a:focus-visible,
+                      button:focus-visible {
+                        outline: 2px solid var(--biozey-earth);
+                          outline-offset: 4px;
+                          }
+
+                          ::selection {
+                            background: var(--biozey-green);
+                              color: white;
+                              }
+
+                              @media (max-width: 768px) {
+                                img {
+                                    max-width: 100%;
+                                      }
+
+                                        h1 {
+                                            line-height: 1.2;
+                                                overflow-wrap: break-word;
+                                                  }
+
+                                                    section {
+                                                        scroll-margin-top: 80px;
+                                                          }
+                                                          }
+                                                          
   <style>html{scroll-behavior:smooth} .product-img{transition:transform .35s ease;background:#f5f4ef;mix-blend-mode:normal!important;isolation:isolate} .product-card:hover .product-img{transform:scale(1.035)} .product-img-wrap{background:#f5f4ef!important}</style>
 </head>
 <body class="bg-cream-50 text-stone-800 font-sans antialiased">

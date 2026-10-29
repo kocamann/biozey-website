@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kocamann.github.io/biozey-website/sitemap.xml
